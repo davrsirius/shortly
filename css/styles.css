@@ -95,13 +95,16 @@ img {
   line-height: 1.5;
   cursor: pointer;
 }
+
 .button:hover {
-  background-color: var(--accent-color-hover);  
+  background-color: var(--accent-color-hover);
 }
+
 .button:active {
   opacity: 0.6;
 
 }
+
 .button--small {
   padding: 8px 24px;
   font-size: 15px;
@@ -219,13 +222,46 @@ img {
   color: var(--text-color);
   text-decoration: none;
 }
+
 .site-header__login-link:hover {
   color: var(--text-color-dark);
 }
+
 .site-header__login-link:active {
   opacity: 0.6;
 }
 
+/* HERO */
+.hero {
+  padding-top: 92px;
+  padding-bottom: 222px;
+  background-image: url('../img/hero-bg.svg');
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 475px) top 30px;
+}
+
+.hero__inner {
+  max-width: 565px;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: var(--text-color-dark);
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 38px;
+  color: var(--text-color);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
 
 
 
