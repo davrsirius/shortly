@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,12 +12,33 @@
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
-  <div class="container">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, similique dicta laborum error quam quidem expedita, eius illum cum a non voluptates nam qui molestias eaque aut dolore. Libero, qui.
-  </div>
 
+<body>
+  <!-- SITE-HEADER -->
+  <header class="site-header">
+    <div class="site-header__container container">
+      <!-- LOGO -->
+      <a href="index.html" class="site-header__logo logo">
+        <img class="logo_img" src="img/shortly-logo.svg" alt="Shortly logo" width="120" height="33">
+      </a>
+      <!-- SITENAV -->
+      <nav class="sitenav site-header__sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Features</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Pricing</a></li>
+          <li class="sitenav__item"><a class="sitenav__link" href="#">Resources</a></li>
+        </ul>
+      </nav>
+
+      <!-- AUTH -->
+      <div class="site-header__auth">
+        <a class="site-header__login-link" href="#">Login</a>
+        <a class="button button--small" href="#">Sign Up</a>
+      </div>
+    </div>
+  </header>
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
