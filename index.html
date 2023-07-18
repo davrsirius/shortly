@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 
+  <!-- Favicon -->
+  <link rel="icon" href="img/shortly-logo.svg">
 </head>
 
 <body>
@@ -50,6 +52,30 @@
           </p>
           <a class="button" href="#">Get Started</a>
         </div>
+      </div>
+    </div>
+
+    <!-- INDEX-URL-FORM-FEATURES -->
+    <div class="index-url-shortener-features-wrapper">
+      <!-- Url shortener form -->
+      <div class="index-url-shortener-features-wrapper__url-shortener">
+        <section class="url-shortener">
+          <div class="container">
+            <h2 class="visually-hidden">Url Shortener</h2>
+            <form class="url-shortener-form" action="https://echo.htmlacademy.ru" method="post">
+              <div class="url-shortener__input-wrapper">
+                <input class="url-shortener__input" type="url" name="Url" placeholder="Shorten a link here..."
+                  aria-label="Url input" required>
+                <div class="url-shortener__error-msg">Please add a link</div>
+              </div>
+              <button class="url-shortener__submit button button--big button--rectangle-big" type="submit">
+                Shorten It!
+              </button>
+            </form>
+          </div>
+
+        </section>
+
       </div>
     </div>
   </main>

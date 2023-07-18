@@ -94,6 +94,7 @@ img {
   font-size: 20px;
   line-height: 1.5;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -123,6 +124,34 @@ img {
   border-radius: 10px;
 }
 
+/* VISUALLY-HIDDEN */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
+/* PLACEHOLDER COLOR */
+::-webkit-input-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+}
+
+::-moz-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+}
+
+:-ms-input-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+}
+
+:-moz-placeholder {
+  color: rgba(52, 49, 61, 0.5);
+}
 
 /* CONTAINER */
 
@@ -265,7 +294,78 @@ img {
 
 
 
+/* INDEX-URL-FORM-FEATURES */
 
+.index-url-shortener-features-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-bg);
+}
+
+.index-url-shortener-features-wrapper__url-shortener {
+  margin-top: -84px;
+}
+
+/* URL SHORTENER */
+.url-shortener {}
+
+.url-shortener-form {
+  display: flex;
+  background: #3A3054;
+  border-radius: 10px;
+  background-image: url('../img/purple-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 48px 64px;
+}
+
+.url-shortener__input-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex-grow: 1;
+  margin-right: 24px;
+  position: relative;
+}
+
+.url-shortener__input {
+  flex-grow: 1;
+  display: block;
+  width: 100%;
+  padding: 12px 30px;
+  border: 3px solid transparent;
+  border-radius: 10px;
+  color: var(--text-color-dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+}
+
+
+.url-shortener__input:not(:focus):not(:placeholder-shown):invalid {
+  border-color: var(--error-color);
+  color: var(--error-color);
+}
+
+.url-shortener__error-msg {
+  display: none;
+  color: var(--error-color);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.109px;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+}
+
+.url-shortener__input:not(:focus):not(:placeholder-shown):invalid~.url-shortener__error-msg {
+  display: block;
+
+}
 
 
 
