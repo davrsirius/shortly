@@ -208,7 +208,7 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
-.logo_img {
+.logo__img {
   display: block;
   width: 120px;
   height: 33px;
@@ -524,7 +524,7 @@ select:-webkit-autofill:focus {
   line-height: normal;
 }
 
-.index-feauture__info {
+.index-feature__info {
   margin: 0;
 }
 
