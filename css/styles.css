@@ -528,7 +528,29 @@ select:-webkit-autofill:focus {
   margin: 0;
 }
 
+/* CTA */
 
+.cta {
+  padding: 57px 0;
+  text-align: center;
+  background-image: url('../img/cta-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.cta-title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -1px;
+}
+
+.button {}
 
 
 
