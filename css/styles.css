@@ -438,6 +438,7 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 18px;
   color: var(--text-color-dark);
+  text-transform: capitalize;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -517,6 +518,7 @@ select:-webkit-autofill:focus {
   margin-bottom: 12px;
   color: var(--text-color-dark);
   font-size: 22px;
+  text-transform: capitalize;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
